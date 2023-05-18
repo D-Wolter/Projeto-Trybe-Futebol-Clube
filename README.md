@@ -40,7 +40,7 @@ E utilize os comandos a seguir para executar os testes de integração criado:
 | Método | Funcionalidade | URL |
 |---|---|---|
 | `POST` | Realiza o login do usuário | http://localhost:3001/login |
-| `GET` | Avalia se o usuário é o administrador | http://localhost:3001/login/validate |
+| `GET` | Avalia se o usuário é o administrador | http://localhost:3001/login/role |
 
 Nessa requisição POST é necessário informar o seguinte JSON:
 
